@@ -13,13 +13,12 @@ header{
 }
 
 /*ul*/
-ul{
+nav ul{
   /* display: inline; */ 
   margin-top:20px; 
 }
 .left{
-  float: left;
-  
+  float: left;  
 }
 /* .left::after{
   clear:left;
@@ -29,11 +28,11 @@ ul{
 }
 
 /*ul*/
-li{
+nav li{
   display: inline-block;
   padding-right: 20px;
 }
-li:last-child{
+nav li:last-child{
   padding-right: 30px;
 }
 
@@ -64,7 +63,7 @@ section{
 .googles{
   box-sizing:border-box;
   font-size: 1rem;
-  margin: 150px auto 100px;
+  margin: 70px auto 60px;
   padding: auto 200px;
 }
 
@@ -88,9 +87,41 @@ section{
 .languages {
     margin-top: 20px;
   }
+.languages ul{
+
+}
+.languages ul li{
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
   .languages li a{
     text-decoration: none;
   }
   .languages li a:hover{
     text-decoration: underline;
   }
+
+  /*footer*/
+  footer{
+    background-color:rgba(0,0,0,0.1);
+    margin-bottom: 0px;
+  }
+  .commons{
+    border-width: 1px;
+    border-style:solid;
+    border-color:  rgba(0,0,0,0.7);
+  }
+  .country{
+    color: rgba(0,0,0,0.6);
+    
+    /* border-style: red; */
+  }
+  .others ul{
+
+  }
+
+  .others ul li{
+    display: inline-block;
+  }
+  
