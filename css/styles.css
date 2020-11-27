@@ -1,0 +1,57 @@
+html{
+  font-size: 14px;
+}
+body{
+
+  /* background-color: pink; */
+  margin:auto;
+}
+
+/*header */
+header{
+  height: 40px;
+  /* background-color: brown; */
+}
+
+/*ul*/
+ul{
+  /* display: inline; */ 
+  margin-top:20px; 
+}
+.left{
+  float: left;
+  
+}
+/* .left::after{
+  clear:left;
+} */
+.right{
+  float: right;
+}
+
+/*ul*/
+li{
+  display: inline-block;
+  padding-right: 20px;
+}
+li:last-child{
+  padding-right: 30px;
+}
+
+
+
+/*archor */
+nav a{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+nav a:hover{
+  text-decoration: underline;
+  color: rgba(0,0,0,0.6);
+}
+#loginPhoto{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 200px;
+  height: 20px;
+  
+}
