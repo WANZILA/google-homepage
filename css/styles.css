@@ -56,24 +56,78 @@ nav a:hover{
 section{
   width: 960px;
   margin: auto;
-  background-color: green;
 }
 
+
+/* main */
+main{
+  margin: 130px auto 100px; 
+}
+
+
+/*************search **********/
+.search{
+  display:flex;
+  flex-flow: row wrap;
+  align-items :center;
+  background-color: none;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 80px;  
+  border-color: rgba(0,0,0,0.4);;
+}
+
+.svg-inline--fa {
+  font-size: 2em;
+  height: 1em;
+  padding: 0px 10px;
+  color: rgba(0,0,0,0.4);
+}
  /******************************googles *********/
 .googles{
+  display:flex;
+  flex-flow: column wrap;
+  justify-content:center;
+  align-items: center;
   box-sizing:border-box;
   font-size: 1rem;
-  margin: 70px auto 60px;
+  /* */
   padding: auto 200px;
 }
 
+.googles form input {
+  height:40px;
+  width:500px;
+  text-rendering: none;
+  color: #000;
+  letter-spacing: normal;  
+  display: inline-block;
+  text-align: start;
+  background-color: none;
+  border-width: 2px;
+  border-style: none;
+  border-radius: 80px;  
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));  
+  border-image: initial;
+}
+.googles form input:focus {
+  outline: none;
+}
+
 .googleLucky li{
-  background-color: rgba(255,255,255,0.8);
+  display: inline-block;
+  background-color: rgba(0,0,0,0.1);
   font-size: 1.1em;
   padding: 8px 15px;
 }
 .googleLucky li:first-child{
   margin-right: 10px;
+}
+.googleLucky li a{
+  text-decoration: none;
+}
+.googleLucky li a:hover{
+  text-decoration: underline;
 }
 .googleLucky li:hover{
   box-sizing: border-box;
@@ -108,20 +162,30 @@ section{
     margin-bottom: 0px;
   }
   .commons{
-    border-width: 1px;
+    border-width: 1px 1px 0px 1px;
     border-style:solid;
     border-color:  rgba(0,0,0,0.7);
   }
   .country{
     color: rgba(0,0,0,0.6);
-    
-    /* border-style: red; */
+    border-style: red; */
   }
-  .others ul{
-
+  .country  p{
+    margin-left: 45px;
   }
-
+  .others{
+    border-width: 1px 0px 1px 0px;
+  }
   .others ul li{
     display: inline-block;
+    box-sizing: border-box;
+    padding: 1px 20px 0px 0px;
+  }
+  .othersItems li a{
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+  }
+  .othersItems li a:hover{
+    text-decoration: underline;
   }
   
